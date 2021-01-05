@@ -972,7 +972,109 @@ button {
     transition: var(--duration-animation) var(--timing-animation);
 }
 
+.modal-form-input:focus {
+    outline: none;
+    border-color: var(--accent-color);
+}
 
+.modal-form-input:focus + .form-icon,
+.form-icon:hover {
+    fill: var(--accent-color);
+}
+
+
+.form-input-wrapper {
+    position: relative;
+    display: block;
+    margin-top: 4px;
+}
+
+.form-icon {
+    position: absolute;
+    display: block;
+    top: 50%;
+    transform: translateY(-50%);    
+    left: 12px;
+    transition: var(--duration-animation) var(--timing-animation);
+}
+
+.modal-form-comment {
+    width: 100%;
+    height: 120px;
+    resize: none;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    padding: 12px 16px;
+    margin-top: 4px;
+    transition: var(--duration-animation) var(--timing-animation);
+}
+
+.modal-form-comment:focus {
+    outline: none;
+    border-color: var(--accent-color);
+}
+
+.modal-policy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+.modal-policy::before {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 15px;
+    border: 1px solid #212121;
+    margin-right: 7px;
+    border-radius: 2px;
+}
+
+.form-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration-line: underline;
+    text-decoration-skip-ink: none;
+    color: #2196F3;
+    
+}
+
+.modal-policy-checkbox:checked + .modal-policy::before {
+    background-color: var(--accent-color);
+    background-image: url("../img/modal/icon_check.svg");
+    background-position: center;
+    border: 1px solid var(--accent-color);
+}
+
+.modal-form-btn {
+    display: block;
+    width: 200px;
+    height: 50px;
+    padding: 10px 32px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border: none;
+    border-radius: 4px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+    cursor: pointer;
+    margin: 0 auto;
+    margin-top: 30px;
+}
 
 .close-block {
     position: absolute;
@@ -999,6 +1101,11 @@ button {
     height: 11px;
     fill: var(--title-text-color);
     transition: transform var(--duration-animation) var(--timing-animation);
+}
+
+.close-block:hover > .close-icon,
+.close-block:focus > .close-icon {
+    fill: var(--accent-color)
 }
 
 .backdrop.is-hidden {
