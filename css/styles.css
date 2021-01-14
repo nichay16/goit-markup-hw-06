@@ -595,7 +595,8 @@ button {
     transform: scale(1.2);
 }
 
-.socials--dark:hover {
+.socials--dark:hover,
+.socials--dark:focus {
     background-color: var(--accent-color);
     fill: var(--background-color-white);
     transform: scale(1.2);
@@ -616,6 +617,10 @@ button {
 .socials__icon {
     width: 20px;
     height: 20px;
+}
+
+.social-links__item {
+    margin-right: 10px;
 }
 
 /** ----------------------------------------- */
@@ -649,6 +654,7 @@ button {
     justify-content: center;
     align-items: center;
     height: 90px;
+    width: 170px;
     fill: var(--socials-color);
     border: 1px solid var(--socials-color);
     border-radius: 4px;
@@ -665,35 +671,10 @@ button {
     transform: scale(1.2);
 }
 
-.section-clients__client-1 {
-    width: 44px;
-    height: 49px;
+.clients-section__client {
+    fill: currentColor;
 }
 
-.clients-section__client-2 {
-    width: 40px;
-    height: 50px;
-}
-
-.clients-section__client-3 {
-    width: 41px;
-    height: 42px;
-}
-
-.clients-section__client-4 {
-    width: 80px;
-    height: 42px;
-}
-
-.clients-section__client-5 {
-    width: 59px;
-    height: 47px;
-}
-
-.clients-section__client-6 {
-    width: 88px;
-    height: 45px;
-}
 /** ----------------------------------------- */
 
 /* ! Footer site // Подвал сайта*/
@@ -705,13 +686,11 @@ button {
 }
 
 .footer .conteiner {
-    display: flex; 
+    display: flex;
+    align-items: baseline; 
 }
 
 .footer--baseline {
-    display: flex;
-}
-.subtitle-footer {
     display: flex;
     align-items: baseline;
 }
@@ -726,6 +705,10 @@ button {
     display: flex;
     flex-direction: column;
     background-color: var(--background-color-dark);
+}
+
+.footer-contact {
+    min-width: 231px;
 }
 
 .footer-address__contact{
@@ -756,10 +739,6 @@ button {
     line-height: 1.143;
     text-transform: uppercase;
     color: var(--primary-white-color);
-}
-
-.footer--baseline {
-    align-items: baseline;
 }
 
 .subscription-wrapper {
