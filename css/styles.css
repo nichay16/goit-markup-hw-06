@@ -671,10 +671,6 @@ button {
     transform: scale(1.2);
 }
 
-.clients-section__client {
-    fill: currentColor;
-}
-
 /** ----------------------------------------- */
 
 /* ! Footer site // Подвал сайта*/
