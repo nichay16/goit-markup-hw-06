@@ -4,8 +4,7 @@
     
     &__title {
     margin-bottom: 50px;
-    font-weight: 700;
-    font-size: 36px;
+    @include font(36px, 700, 42px, 0.03em);
     line-height: 1.17;
     text-align: center;
     }

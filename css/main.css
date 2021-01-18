@@ -38,8 +38,8 @@
 
 .logo {
   font-family: var(--secondary-font-family);
-  font-weight: 700;
   font-size: 26px;
+  font-weight: 700;
   line-height: 1.192;
   letter-spacing: 0.03em;
   color: var(--accent-color);
@@ -163,11 +163,11 @@ button {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border: none;
   border-radius: 4px;
-  font-weight: 700;
   font-size: 16px;
+  font-weight: 700;
   line-height: 1.875;
-  text-align: center;
   letter-spacing: 0.06em;
+  text-align: center;
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   cursor: pointer;
@@ -181,9 +181,9 @@ button {
 .modal-form-field {
   margin-bottom: 10px;
   color: var(--primary-text-color);
-  font-weight: normal;
   font-size: 12px;
-  line-height: 1.16;
+  font-weight: 400;
+  line-height: 1.167;
   letter-spacing: 0.01em;
 }
 
@@ -229,11 +229,11 @@ button {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border: none;
   border-radius: 4px;
-  font-weight: 700;
   font-size: 16px;
+  font-weight: 700;
   line-height: 1.875;
-  text-align: center;
   letter-spacing: 0.06em;
+  text-align: center;
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   cursor: pointer;
@@ -245,11 +245,11 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
-  line-height: 1.71;
+  font-weight: 400;
+  line-height: 1.714;
   letter-spacing: 0.03em;
+  font-style: normal;
   color: var(--primary-text-color);
 }
 
@@ -272,11 +272,11 @@ button {
 
 .form-title {
   margin-bottom: 12px;
-  font-weight: 700;
   font-size: 20px;
+  font-weight: 700;
   line-height: 1.15;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
   color: var(--title-text-color);
 }
 
@@ -300,9 +300,9 @@ button {
 }
 
 .form-link {
-  font-weight: 400;
   font-size: 14px;
-  line-height: 1.71;
+  font-weight: 400;
+  line-height: 1.714;
   letter-spacing: 0.03em;
   text-decoration-line: underline;
   text-decoration-skip-ink: none;
@@ -428,8 +428,8 @@ h6 {
 }
 
 .nav-list__item {
-  font-weight: 500;
   font-size: 14px;
+  font-weight: 500;
   line-height: 1.143;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
@@ -492,9 +492,9 @@ h6 {
 .address-list__item {
   display: flex;
   align-items: center;
-  font-weight: 500;
   font-size: 14px;
-  line-height: 1.142;
+  font-weight: 500;
+  line-height: 1.143;
   letter-spacing: 0.02em;
 }
 
@@ -544,8 +544,8 @@ h6 {
   margin-right: auto;
   margin-bottom: 32px;
   width: 696px;
-  font-weight: 900;
   font-size: 44px;
+  font-weight: 900;
   line-height: 1.364;
   letter-spacing: 0.06em;
   text-align: center;
@@ -556,8 +556,8 @@ h6 {
 
 .hero-button {
   padding: 10px 32px;
-  font-weight: 700;
   font-size: 16px;
+  font-weight: 700;
   line-height: 1.875;
   letter-spacing: 0.06em;
   min-width: 200px;
@@ -582,9 +582,10 @@ h6 {
 }
 
 .subtitle-features-title {
-  font-weight: 700;
   font-size: 14px;
+  font-weight: 700;
   line-height: 1.143;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--title-text-color);
   margin-top: 30px;
@@ -592,8 +593,10 @@ h6 {
 }
 
 .subtitle-features-text {
-  font-weight: 400;
   font-size: 14px;
+  font-weight: 400;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
   line-height: 1.714;
   color: var(--primary-text-color);
 }
@@ -641,9 +644,10 @@ h6 {
 .section-work__title {
   color: var(--title-text-color);
   margin-bottom: 50px;
-  font-weight: 700;
   font-size: 36px;
-  line-height: 1.67;
+  font-weight: 700;
+  line-height: 1.167;
+  letter-spacing: 0.03em;
 }
 
 .subtitle-work {
@@ -671,9 +675,10 @@ h6 {
   background-color: rgba(47, 48, 58, 0.8);
   padding-top: 27px;
   padding-bottom: 27px;
-  font-weight: 700;
   font-size: 14px;
-  line-height: 1.14;
+  font-weight: 700;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   text-align: center;
 }
@@ -693,9 +698,10 @@ h6 {
 
 .section-team__title {
   margin-bottom: 50px;
-  font-weight: 700;
   font-size: 36px;
-  line-height: 1.67;
+  font-weight: 700;
+  line-height: 1.167;
+  letter-spacing: 0.03em;
   color: var(--title-text-color);
   text-align: center;
 }
@@ -715,18 +721,20 @@ h6 {
 }
 
 .subtitle-team-title {
-  font-weight: 500;
   font-size: 16px;
-  line-height: 1.186;
+  font-weight: 500;
+  line-height: 1.188;
+  letter-spacing: 0.03em;
   text-align: center;
   color: var(--title-text-color);
   margin-bottom: 10px;
 }
 
 .subtitle-team-text {
-  font-weight: 400;
   font-size: 16px;
-  line-height: 1.186;
+  font-weight: 400;
+  line-height: 1.188;
+  letter-spacing: 0.03em;
   text-align: center;
   color: var(--primary-text-color);
   margin-bottom: 16px;
@@ -749,8 +757,10 @@ h6 {
 
 .section-clients__title {
   margin-bottom: 50px;
-  font-weight: 700;
   font-size: 36px;
+  font-weight: 700;
+  line-height: 1.167;
+  letter-spacing: 0.03em;
   line-height: 1.17;
   text-align: center;
 }
@@ -800,8 +810,8 @@ h6 {
 
 .footer-address {
   margin-top: 20px;
-  font-weight: 400;
   font-size: 14px;
+  font-weight: 400;
   line-height: 1.714;
   letter-spacing: 0.03em;
   display: flex;
@@ -835,9 +845,10 @@ h6 {
 
 .subscription-title {
   margin-bottom: 20px;
-  font-weight: 700;
   font-size: 14px;
+  font-weight: 700;
   line-height: 1.143;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-white-color);
 }
@@ -849,9 +860,9 @@ h6 {
 
 .subscription-slogan {
   margin-bottom: 20px;
-  font-weight: 700;
   font-size: 14px;
-  line-height: 1.142;
+  font-weight: 700;
+  line-height: 1.143;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-white-color);
@@ -873,11 +884,11 @@ h6 {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border: none;
   border-radius: 4px;
-  font-weight: 700;
   font-size: 16px;
+  font-weight: 700;
   line-height: 1.875;
-  text-align: center;
   letter-spacing: 0.06em;
+  text-align: center;
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   cursor: pointer;
@@ -906,9 +917,10 @@ h6 {
 }
 
 .portfolio-subtitle__menu {
-  font-weight: 500;
   font-size: 16px;
-  line-height: 1.165;
+  font-weight: 500;
+  line-height: 1.625;
+  letter-spacing: 0.03em;
   text-align: center;
   display: flex;
   margin-top: 94px;
@@ -927,9 +939,10 @@ h6 {
 
 .portfolio__button {
   padding: 6px 22px;
-  font-weight: 500;
   font-size: 16px;
+  font-weight: 500;
   line-height: 1.625;
+  letter-spacing: 0.03em;
   min-width: 73px;
   color: var(--title-text-color);
   background-color: var(--portfolio-button-background-color);
@@ -944,9 +957,10 @@ h6 {
 .portfolio-filter {
   display: flex;
   flex-wrap: wrap;
-  font-weight: 500;
   font-size: 16px;
-  line-height: 1.165;
+  font-weight: 500;
+  line-height: 1.188;
+  letter-spacing: 0.03em;
   padding-bottom: 94px;
   margin-left: calc(-1 * var(--card-set-gap));
   margin-top: calc(-1 * var(--card-set-gap));
@@ -979,16 +993,18 @@ h6 {
 }
 
 .portfolio__title {
-  font-weight: 700;
   font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-text-color);
   margin-bottom: 4px;
 }
 
 .portfolio__text {
-  font-weight: 400;
   font-size: 16px;
+  font-weight: 400;
+  line-height: 1.875;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
@@ -1019,8 +1035,8 @@ h6 {
   transform: translateY(100%);
   color: var(--background-color-white);
   background-color: rgba(33, 150, 243, 0.9);
-  font-weight: 400;
   font-size: 18px;
+  font-weight: 400;
   line-height: 1.556;
   letter-spacing: 0.03em;
   transition: opacity var(--duration-animation) var(--timing-animation), transform var(--duration-animation) var(--timing-animation);

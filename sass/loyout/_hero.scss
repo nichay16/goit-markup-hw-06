@@ -27,10 +27,7 @@
     margin-right: auto;
     margin-bottom: 32px;
     width: 696px;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.364;
-    letter-spacing: 0.06em;
+    @include font(44px, 900, 60px, 0.06em);
     text-align: center;
     text-transform: uppercase;
     text-transform: uppercase;
@@ -39,10 +36,7 @@
     
     &-button {
     padding: 10px 32px;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.875;
-    letter-spacing: 0.06em;
+    @include font(16px, 700, 30px, 0.06em);
     min-width: 200px;
     color: var(--primary-white-color);
     background-color: var(--accent-color);

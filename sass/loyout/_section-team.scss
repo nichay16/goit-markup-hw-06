@@ -12,9 +12,7 @@
     
     &__title {
     margin-bottom: 50px;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.67;
+    @include font(36px, 700, 42px, 0.03em);
     color: var(--title-text-color);
     text-align: center;
     }
@@ -34,18 +32,14 @@
     }
     
     &-title {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.186;
+    @include font(16px, 500, 19px, 0.03em);
     text-align: center;
     color: var(--title-text-color);
     margin-bottom: 10px;
     }
 
     &-text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.186;
+    @include font(16px, 400, 19px, 0.03em);
     text-align: center;
     color: var(--primary-text-color);
     margin-bottom: 16px;
